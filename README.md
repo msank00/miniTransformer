@@ -1,2 +1,5 @@
-# miniTransformer
-Create pytorch transformer from scratch
+# Mini Transformer
+
+🚀 Create pytorch transformer from scratch
+
+----

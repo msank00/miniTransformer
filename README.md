@@ -2,6 +2,8 @@
 
 🚀 Create pytorch transformer from scratch
 
+- [Ilustrated Transformer with Code](https://nbviewer.jupyter.org/github/msank00/miniTransformer/blob/main/notebooks/Ilustrated%20Transformer.ipynb) [![nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/msank00/miniTransformer/blob/main/notebooks/Ilustrated%20Transformer.ipynb)
+  - Best to view in nbviewer to see the images
 
 ## Resource
 

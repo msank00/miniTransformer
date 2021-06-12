@@ -13,7 +13,7 @@
 
 - :book: [Create BERT like model using transformer](https://hyugen-ai.medium.com/transformers-in-pytorch-from-scratch-for-nlp-beginners-ff3b3d922ef7)
     - [ github/Whiax/BERT-Transformer-Pytorch ](https://github.com/Whiax/BERT-Transformer-Pytorch/blob/main/train.py)
-
+- :book: [Illustrated Guide to Transformers- Step by Step Explanation](https://towardsdatascience.com/illustrated-guide-to-transformers-step-by-step-explanation-f74876522bc0) :fire: :rocket:
 
 
 ----

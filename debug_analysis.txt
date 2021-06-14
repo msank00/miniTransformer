@@ -1,0 +1,52 @@
+how the batch is being created....
+how spacy/torchtext data FIELD works
+
+
+
+trg.size(3,9)
+trg_input.size(3,8) # last column missing
+trg_mask.size(3,8,8)
+
+
+src.size(3,6)
+src_mask.size(3,1,6)
+
+pred.size(3,8,23469) ==> 23469 trg vocab size it seems.. check..?
+
+prepare the src and target for transformer seq2seq
+
+
+============================================================
+
+Input to Encoder block (consisted of 6 encoder layers)
+
+src
+tensor([[  4,  30,   6, 109, 233,   2],
+        [ 13, 490,  43, 576,  38,   2],
+        [ 26,   4, 816,   5,  19,   7]])
+
+src.size(3,6)
+embedding output (3,6,512)
+encoder output (3,6,512)
+
+src_mask
+tensor([[[True, True, True, True, True, True]],
+
+        [[True, True, True, True, True, True]],
+
+        [[True, True, True, True, True, True]]])
+
+src_mask.size(3,1,6)
+
+==================================================================
+
+trg
+tensor([[   2,   17,   62,   58,   20,   37,   11, 1173,    4],
+        [   2,   11, 5323,   66,  661,   77,   16,  380,    4],
+        [   2,   57,    9,   28,  113,    6,   33, 1274,    7]])
+        
+trg.size(3,9)
+
+embedding output size(3,9,512)
+
+
